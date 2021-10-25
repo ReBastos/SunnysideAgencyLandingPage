@@ -6,6 +6,7 @@
   color: hsl(228, 45%, 44%);
 }
 
+
 body {
   width: 99vw;
   display: flex;
@@ -30,10 +31,13 @@ header {
 }
 
 header > h1 {
-  font-size: 60px;
+  font-stretch: ultra-expanded;
+  font-size: 40px;
   color: white;
   position: absolute;
   margin-top: 7%;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
 }
 
 .nav {
@@ -102,6 +106,27 @@ header > h1 {
   flex-direction: column;
 }
 
+.linhatxt > div > h2{
+  font-family: 'Fraunces', serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+}
+
+.linhatxt > div > p{
+  line-height: 25px;
+  font-family: 'Barlow', serif;
+  font-size: 16px;
+  font-weight: 900;
+  color: hsl(232, 10%, 55%);
+}
+
+.learnmore{
+  font-family: 'Fraunces', serif !important;
+  border-bottom: 5px;
+  color:hsl(212, 27%, 19%) !important;
+}
+
 .linhaimg {
   width: 500px;
 }
@@ -129,7 +154,6 @@ header > h1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .linhaimgtxt > div > div {
@@ -137,4 +161,42 @@ header > h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.graphicdesign > h2{
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: hsl(167, 40%, 24%);
+
+}
+
+.graphicdesign > p{
+  line-height: 20px;
+  font-family: 'Barlow', serif;
+  font-size: 13px;
+  font-weight: 900;
+  color: hsl(232, 10%, 55%);
+  width: 270px;
+  text-align: center;
+  color: hsl(167, 40%, 24%);
+  
+}
+
+.photography > h2{
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: hsl(198, 62%, 26%);
+
+}
+
+.photography > p{
+  width: 270px;
+  font-family: 'Barlow', serif;
+  font-size: 13px;
+  font-weight: 900;
+  color: hsl(198, 62%, 26%);
+  text-align: center; 
+  line-height: 20px;
 }

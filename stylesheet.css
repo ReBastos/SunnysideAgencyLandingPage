@@ -202,3 +202,108 @@ header > h1 {
   text-align: center; 
   line-height: 20px;
 }
+
+.linhaclient{
+  display:flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.linhaclient > h2{
+  font-family: 'Fraunces', serif;
+  color: hsl(210, 4%, 67%);
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+.clientcards{
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+
+.clientcard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.clientcard > p{
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Barlow';
+  color: hsl(213, 9%, 39%);
+
+}
+
+.clientcard > div{
+  height: 10px;
+}
+.clientcard > div >  h3{
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+}
+
+.clientcard > div > p{
+  font-family: 'Barlow';
+  color:hsl(210, 4%, 67%);
+  font-size: 13px;
+}
+
+.clientcard >img{
+  border-radius: 500px;
+  width: 60px;
+  margin-bottom: 40px;
+}
+
+.galery{
+  display: flex;
+}
+
+.galery > img{
+  width:250px;
+}
+
+footer{
+  width: 1000px;
+  height: 230px;
+  background-color: hsl(168, 53%, 64%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#logofooter{
+  width: 100px;
+  
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  width: 130px;
+}
+
+.icons > img{
+  width: 15px;
+}
+
+label{
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  color: hsl(168, 34%, 41%);
+  font-family: 'Barlow';
+  font-size: 13px;
+}

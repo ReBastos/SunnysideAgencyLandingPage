@@ -2,35 +2,60 @@
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
+.attribution a {
+  color: #3e52a3;
+}
 
 body {
-  width: 99vw;
+  width: 100vw;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .container {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 header {
   width: 1000px;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-width: 685px;
 }
 
-header > h1 {
+header h1 {
   letter-spacing: 7px;
   font-stretch: ultra-expanded;
   font-size: 40px;
@@ -39,13 +64,17 @@ header > h1 {
   margin-top: 150px;
   font-family: 'Fraunces', serif;
   font-weight: 900;
-
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
   position: absolute;
   width: 1000px;
 }
@@ -55,14 +84,20 @@ header > h1 {
 }
 
 #menu-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 98%;
   padding-right: 3%;
 }
 
-#menu-top > p {
+#menu-top p {
   margin-left: 30px;
   color: white;
   font-weight: bold;
@@ -89,6 +124,8 @@ header > h1 {
 }
 
 .linha {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1000px;
   height: 417px;
@@ -97,43 +134,54 @@ header > h1 {
 .linhatxt {
   width: 500px;
   height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.linhatxt > div {
+.linhatxt div {
   width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.linhatxt > div > h2{
+.linhatxt div h2 {
   font-family: 'Fraunces', serif;
   font-size: 40px;
   font-weight: 900;
-  color: hsl(212, 27%, 19%);
+  color: #23303e;
 }
 
-.linhatxt > div > p{
+.linhatxt div p {
   line-height: 25px;
   font-family: 'Barlow', serif;
   font-size: 16px;
   font-weight: 900;
-  color: hsl(232, 10%, 55%);
+  color: #818498;
 }
 
-.learnmore{
+.learnmore {
   font-family: 'Fraunces', serif !important;
   border-bottom: 5px;
-  color:hsl(212, 27%, 19%) !important;
+  color: #23303e !important;
 }
 
 .linhaimg {
   width: 500px;
 }
 
-.linhaimg > img {
+.linhaimg img {
   width: inherit;
   height: inherit;
 }
@@ -143,167 +191,210 @@ header > h1 {
   height: inherit;
 }
 
-.linhaimgtxt > img {
+.linhaimgtxt img {
   position: absolute;
   width: inherit;
   height: inherit;
 }
 
-.linhaimgtxt > div {
+.linhaimgtxt div {
   width: inherit;
   height: inherit;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.linhaimgtxt > div > div {
+.linhaimgtxt div div {
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.graphicdesign > h2{
+.graphicdesign h2 {
   font-family: 'Fraunces', serif;
   font-size: 24px;
   font-weight: 900;
-  color: hsl(167, 40%, 24%);
-
+  color: #25564b;
 }
 
-.graphicdesign > p{
+.graphicdesign p {
   line-height: 20px;
   font-family: 'Barlow', serif;
   font-size: 13px;
   font-weight: 900;
-  color: hsl(232, 10%, 55%);
+  color: #818498;
   width: 270px;
   text-align: center;
-  color: hsl(167, 40%, 24%);
-  
+  color: #25564b;
 }
 
-.photography > h2{
+.photography h2 {
   font-family: 'Fraunces', serif;
   font-size: 24px;
   font-weight: 900;
-  color: hsl(198, 62%, 26%);
-
+  color: #19536b;
 }
 
-.photography > p{
+.photography p {
   width: 270px;
   font-family: 'Barlow', serif;
   font-size: 13px;
   font-weight: 900;
-  color: hsl(198, 62%, 26%);
-  text-align: center; 
+  color: #19536b;
+  text-align: center;
   line-height: 20px;
 }
 
-.linhaclient{
-  display:flex;
-  flex-direction: column;
+.linhaclient {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 1000px;
   height: 500px;
-  align-items: center;
-  justify-content: center;
-
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.linhaclient > h2{
+.linhaclient h2 {
   font-family: 'Fraunces', serif;
-  color: hsl(210, 4%, 67%);
+  color: #a7abae;
   font-size: 16px;
   letter-spacing: 5px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
-.clientcards{
+.clientcards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 1000px;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.clientcard{
+.clientcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 300px;
   margin-bottom: 50px;
 }
 
-.clientcard > p{
+.clientcard p {
   text-align: center;
   font-size: 15px;
   line-height: 25px;
   font-family: 'Barlow';
-  color: hsl(213, 9%, 39%);
-
+  color: #5a636c;
 }
 
-.clientcard > div{
+.clientcard div {
   height: 10px;
 }
-.clientcard > div >  h3{
+
+.clientcard > div > h3 {
   text-align: center;
   font-family: 'Fraunces', serif;
   font-weight: 900;
-  color: hsl(212, 27%, 19%);
+  color: #23303e;
 }
 
-.clientcard > div > p{
+.clientcard div p {
   font-family: 'Barlow';
-  color:hsl(210, 4%, 67%);
   font-size: 13px;
 }
 
-.clientcard >img{
+.clientcard img {
   border-radius: 500px;
   width: 60px;
   margin-bottom: 40px;
 }
 
-.galery{
+.galery {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
-.galery > img{
-  width:250px;
+.galery img {
+  width: 250px;
 }
 
-footer{
+footer {
   width: 1000px;
   height: 230px;
-  background-color: hsl(168, 53%, 64%);
+  background-color: #73d4c0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#logofooter{
+#logofooter {
   width: 100px;
-  
 }
 
-.icons{
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 130px;
 }
 
-.icons > img{
+.icons > img {
   width: 15px;
 }
 
-label{
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 250px;
-  color: hsl(168, 34%, 41%);
+  color: #458c7e;
   font-family: 'Barlow';
   font-size: 13px;
 }
+/*# sourceMappingURL=stylesheet.css.map */
